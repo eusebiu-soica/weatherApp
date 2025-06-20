@@ -1,3 +1,110 @@
 .container {
   text-align: center;
+  font-family: "Jost", serif !important;
+}
+
+.containerApp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pageContainer{
+  width: 50%;
+  position: relative;
+  left: 50%;
+  height: 90%;
+  transform: translateX(-50%);
+  padding: 24px;
+}
+
+
+.todayData {
+  width: 470px;
+  position: relative;
+  transform: scale(0.8);
+}
+
+.imageCond {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50px;
+  background-size: contain;
+}
+
+.summary {
+  margin: 30px;
+  margin-top: -10px;
+}
+
+.hourlyForecast {
+  width: 420px;
+  margin-top: -15px;
+  transform: scale(0.9);
+  margin-left: 10px;
+}
+
+.leftContainer {
+  height: 100%;
+  /* width: 450px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.middleContainer{
+  transform: scale(0.9);
+  margin-left: -20px;
+  margin-top: 30px;
+  /* width: 500px; */
+  width: 35.33%;
+}
+
+.rightContainer{
+  transform: scale(0.9);
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-left: -20px;
+  /* width: 500px; */
+  width: 40%;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 740px) {
+  .pageContainer {
+    width: 100%;
+  }
+
+  .containerApp {
+    width: 100%;
+    margin-top: 0px;
+    padding: 0 16px;
+    flex-direction: column;
+  }
+
+  .leftContainer, .middleContainer, .rightContainer{
+    width: 100%;
+    transform: scale(1);
+  }
+
+  .todayData {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .imageCond {
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    position: absolute;
+    border-radius: 0px;
+    background-size: cover;
+  }
 }

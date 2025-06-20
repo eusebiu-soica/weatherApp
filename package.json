@@ -12,11 +12,24 @@
   },
   "devDependencies": {
     "prettier": "^3.1.1",
-    "turbo": "^2.3.3"
+    "turbo": "^2.4.4"
   },
   "packageManager": "yarn@1.22.19",
   "engines": {
     "node": ">=18"
   },
-  "name": "with-react-native-web"
+  "name": "with-react-native-web",
+  "dependencies": {
+    "@expo-google-fonts/jost": "^0.2.3",
+    "babel-plugin-inline-import": "^3.0.0",
+    "expo-constants": "^17.0.7",
+    "expo-linking": "^7.0.5",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-screens": "^4.9.1"
+  },
+  "resolutions": {
+    "metro": "0.81.0",
+    "@react-native/community-cli-plugin/metro": "0.81.0",
+    "metro-config/metro": "0.81.0"
+  }
 }

@@ -3,6 +3,14 @@
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
-    "strict": true
+    "module": "ESNext",
+    "strict": true,
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "emitDeclarationOnly": false,
+    "skipLibCheck": true
   }
 }

@@ -1,31 +1,78 @@
 {
   "expo": {
-    "name": "native",
-    "slug": "native",
+    "name": "Weather App",
+    "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "newArchEnabled": true,
+    "scheme": "weather-app",
+    "platforms": ["ios", "android"],
+    "assets": ["./node_modules/@repo/ui/assets/icons/*"],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to show weather data",
+        "NSLocationAlwaysUsageDescription": "We need your location for better accuracy"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#EFF5F9"
+      },
+      
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.eusebiuSoica.weatherApp"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EFF5F9"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+      "expo-splash-screen",
+      {
+        "ios": {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "cover"
+        },
+        "android": {
+          "backgroundColor": "#0c7cff",
+          "image": "./assets/splash-android-icon.png",
+          "imageWidth": 150
+        }
+      }
+    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9af00452-0d18-4064-9490-1aff48e13887"
+      }
+    },
+    "owner": "eusebiu_soica"
   }
 }

@@ -1,0 +1,1072 @@
+{
+  "location": {
+    "name": "Arad",
+    "region": "Arad",
+    "country": "Romania",
+    "lat": 46.183,
+    "lon": 21.317,
+    "tz_id": "Europe/Bucharest",
+    "localtime_epoch": 1742982304,
+    "localtime": "2025-03-26 11:45"
+  },
+  "current": {
+    "last_updated_epoch": 1742981400,
+    "last_updated": "2025-03-26 11:30",
+    "temp_c": 13.2,
+    "is_day": 1,
+    "condition": {
+      "text": "Partly cloudy",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+      "code": 1003
+    },
+    "wind_kph": 8.6,
+    "pressure_mb": 1016,
+    "pressure_in": 30,
+    "precip_mm": 0,
+    "humidity": 82,
+    "cloud": 25,
+    "feelslike_c": 12.7,
+    "vis_km": 10,
+    "uv": 2.4,
+    "air_quality": {
+      "co": 345.95,
+      "no2": 28.12,
+      "o3": 38,
+      "so2": 2.035,
+      "pm2_5": 20.535,
+      "pm10": 24.79,
+      "us-epa-index": 2,
+      "gb-defra-index": 2
+    }
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2025-03-26",
+        "date_epoch": 1742947200,
+        "day": {
+          "maxtemp_c": 16.3,
+          "mintemp_c": 8.9,
+          "avgtemp_c": 12.1,
+          "maxwind_kph": 11.9,
+          "avgvis_km": 8.7,
+          "avgvis_miles": 5,
+          "avghumidity": 81,
+          "daily_chance_of_rain": 82,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 0.7
+        },
+        "astro": {
+          "sunrise": "06:26 AM",
+          "sunset": "06:55 PM",
+          "is_moon_up": 0,
+          "is_sun_up": 0
+        },
+        "hour": [
+          {
+            "time_epoch": 1742940000,
+            "time": "2025-03-26 00:00",
+            "temp_c": 10.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742943600,
+            "time": "2025-03-26 01:00",
+            "temp_c": 10.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742947200,
+            "time": "2025-03-26 02:00",
+            "temp_c": 9.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742950800,
+            "time": "2025-03-26 03:00",
+            "temp_c": 9.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742954400,
+            "time": "2025-03-26 04:00",
+            "temp_c": 9.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742958000,
+            "time": "2025-03-26 05:00",
+            "temp_c": 9,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742961600,
+            "time": "2025-03-26 06:00",
+            "temp_c": 8.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742965200,
+            "time": "2025-03-26 07:00",
+            "temp_c": 9.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+              "code": 1009
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742968800,
+            "time": "2025-03-26 08:00",
+            "temp_c": 10.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742972400,
+            "time": "2025-03-26 09:00",
+            "temp_c": 11.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+              "code": 1009
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742976000,
+            "time": "2025-03-26 10:00",
+            "temp_c": 12.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742979600,
+            "time": "2025-03-26 11:00",
+            "temp_c": 13.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly cloudy",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742983200,
+            "time": "2025-03-26 12:00",
+            "temp_c": 15.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742986800,
+            "time": "2025-03-26 13:00",
+            "temp_c": 16.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742990400,
+            "time": "2025-03-26 14:00",
+            "temp_c": 16.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 80,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742994000,
+            "time": "2025-03-26 15:00",
+            "temp_c": 16.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1742997600,
+            "time": "2025-03-26 16:00",
+            "temp_c": 15.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743001200,
+            "time": "2025-03-26 17:00",
+            "temp_c": 14.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Light rain shower",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+              "code": 1240
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743004800,
+            "time": "2025-03-26 18:00",
+            "temp_c": 12.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743008400,
+            "time": "2025-03-26 19:00",
+            "temp_c": 11.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743012000,
+            "time": "2025-03-26 20:00",
+            "temp_c": 12,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743015600,
+            "time": "2025-03-26 21:00",
+            "temp_c": 12,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 65,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743019200,
+            "time": "2025-03-26 22:00",
+            "temp_c": 11.7,
+            "is_day": 0,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743022800,
+            "time": "2025-03-26 23:00",
+            "temp_c": 11.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          }
+        ]
+      },
+      {
+        "date": "2025-03-27",
+        "date_epoch": 1743033600,
+        "day": {
+          "maxtemp_c": 13.6,
+          "mintemp_c": 10.3,
+          "avgtemp_c": 11.8,
+          "maxwind_kph": 23,
+          "avgvis_km": 8.4,
+          "avgvis_miles": 5,
+          "avghumidity": 91,
+          "daily_chance_of_rain": 89,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Moderate rain",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+            "code": 1189
+          },
+          "uv": 0.1
+        },
+        "astro": {
+          "sunrise": "06:24 AM",
+          "sunset": "06:57 PM",
+          "is_moon_up": 0,
+          "is_sun_up": 0
+        },
+        "hour": [
+          {
+            "time_epoch": 1743026400,
+            "time": "2025-03-27 00:00",
+            "temp_c": 11.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743030000,
+            "time": "2025-03-27 01:00",
+            "temp_c": 11,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743033600,
+            "time": "2025-03-27 02:00",
+            "temp_c": 11,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743037200,
+            "time": "2025-03-27 03:00",
+            "temp_c": 11,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743040800,
+            "time": "2025-03-27 04:00",
+            "temp_c": 10.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743044400,
+            "time": "2025-03-27 05:00",
+            "temp_c": 10.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743048000,
+            "time": "2025-03-27 06:00",
+            "temp_c": 10.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Mist",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/143.png",
+              "code": 1030
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743051600,
+            "time": "2025-03-27 07:00",
+            "temp_c": 10.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Mist",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+              "code": 1030
+            },
+            "chance_of_rain": 65,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743055200,
+            "time": "2025-03-27 08:00",
+            "temp_c": 11.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Mist",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+              "code": 1030
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743058800,
+            "time": "2025-03-27 09:00",
+            "temp_c": 11.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743062400,
+            "time": "2025-03-27 10:00",
+            "temp_c": 12,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 81,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743066000,
+            "time": "2025-03-27 11:00",
+            "temp_c": 13.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743069600,
+            "time": "2025-03-27 12:00",
+            "temp_c": 13.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+              "code": 1009
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743073200,
+            "time": "2025-03-27 13:00",
+            "temp_c": 13.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 63,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743076800,
+            "time": "2025-03-27 14:00",
+            "temp_c": 13.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743080400,
+            "time": "2025-03-27 15:00",
+            "temp_c": 13.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743084000,
+            "time": "2025-03-27 16:00",
+            "temp_c": 13.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 81,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743087600,
+            "time": "2025-03-27 17:00",
+            "temp_c": 12.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743091200,
+            "time": "2025-03-27 18:00",
+            "temp_c": 12.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743094800,
+            "time": "2025-03-27 19:00",
+            "temp_c": 11.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743098400,
+            "time": "2025-03-27 20:00",
+            "temp_c": 11.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+              "code": 1009
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743102000,
+            "time": "2025-03-27 21:00",
+            "temp_c": 10.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Thundery outbreaks in nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/200.png",
+              "code": 1087
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743105600,
+            "time": "2025-03-27 22:00",
+            "temp_c": 10.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
+              "code": 1009
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743109200,
+            "time": "2025-03-27 23:00",
+            "temp_c": 10.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          }
+        ]
+      },
+      {
+        "date": "2025-03-28",
+        "date_epoch": 1743120000,
+        "day": {
+          "maxtemp_c": 13.9,
+          "mintemp_c": 9.4,
+          "avgtemp_c": 11.4,
+          "maxwind_kph": 19.1,
+          "avgvis_km": 8.3,
+          "avgvis_miles": 5,
+          "avghumidity": 89,
+          "daily_chance_of_rain": 89,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 0.2
+        },
+        "astro": {
+          "sunrise": "06:22 AM",
+          "sunset": "06:58 PM",
+          "is_moon_up": 0,
+          "is_sun_up": 0
+        },
+        "hour": [
+          {
+            "time_epoch": 1743112800,
+            "time": "2025-03-28 00:00",
+            "temp_c": 9.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743116400,
+            "time": "2025-03-28 01:00",
+            "temp_c": 9.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743120000,
+            "time": "2025-03-28 02:00",
+            "temp_c": 9.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png",
+              "code": 1006
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743123600,
+            "time": "2025-03-28 03:00",
+            "temp_c": 10,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 65,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743127200,
+            "time": "2025-03-28 04:00",
+            "temp_c": 9.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743130800,
+            "time": "2025-03-28 05:00",
+            "temp_c": 9.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743134400,
+            "time": "2025-03-28 06:00",
+            "temp_c": 9.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743138000,
+            "time": "2025-03-28 07:00",
+            "temp_c": 9.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 84,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743141600,
+            "time": "2025-03-28 08:00",
+            "temp_c": 9.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743145200,
+            "time": "2025-03-28 09:00",
+            "temp_c": 10.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743148800,
+            "time": "2025-03-28 10:00",
+            "temp_c": 11.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743152400,
+            "time": "2025-03-28 11:00",
+            "temp_c": 11.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 69,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743156000,
+            "time": "2025-03-28 12:00",
+            "temp_c": 12.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 60,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743159600,
+            "time": "2025-03-28 13:00",
+            "temp_c": 13.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743163200,
+            "time": "2025-03-28 14:00",
+            "temp_c": 13.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743166800,
+            "time": "2025-03-28 15:00",
+            "temp_c": 13.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 78,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743170400,
+            "time": "2025-03-28 16:00",
+            "temp_c": 13.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+              "code": 1009
+            },
+            "chance_of_rain": 0,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743174000,
+            "time": "2025-03-28 17:00",
+            "temp_c": 13.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 75,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743177600,
+            "time": "2025-03-28 18:00",
+            "temp_c": 12.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 84,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743181200,
+            "time": "2025-03-28 19:00",
+            "temp_c": 12.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 87,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743184800,
+            "time": "2025-03-28 20:00",
+            "temp_c": 12.2,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743188400,
+            "time": "2025-03-28 21:00",
+            "temp_c": 12.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743192000,
+            "time": "2025-03-28 22:00",
+            "temp_c": 11.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Light rain",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/296.png",
+              "code": 1183
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          },
+          {
+            "time_epoch": 1743195600,
+            "time": "2025-03-28 23:00",
+            "temp_c": 11.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Light drizzle",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/266.png",
+              "code": 1153
+            },
+            "chance_of_rain": 100,
+            "chance_of_snow": 0
+          }
+        ]
+      }
+    ]
+  },
+  "alerts": {
+    "alert": []
+  }
+}

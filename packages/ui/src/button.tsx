@@ -4,34 +4,54 @@ import {
   StyleSheet,
   GestureResponderEvent,
   Text,
+  StyleProp,
+  ViewStyle,
+  Platform,
 } from "react-native";
 
+
 export interface ButtonProps {
-  text: string;
+  children?: React.ReactNode;
+  style?: StyleProp<ViewStyle>;
   onClick?: (event: GestureResponderEvent) => void;
 }
+export interface ButtonText {
+  children?: React.ReactNode
+  style?: StyleProp<ViewStyle>;
+}
 
-export function Button({ text, onClick }: ButtonProps) {
+export function Button({ children, style, onClick }: ButtonProps) {
+  // const [fontLoaded] = useFonts({ Jost_400Regular })
+  // if (!fontLoaded) return null;
+
   return (
-    <TouchableOpacity style={styles.button} onPress={onClick}>
-      <Text style={styles.text}>{text}</Text>
+    <TouchableOpacity style={[styles.button, style]} onPress={onClick && onClick}>
+      <Button.Text>
+        {children}
+      </Button.Text>
     </TouchableOpacity>
   );
 }
 
+Button.Text = function ButtonText({ children, style }: ButtonText) {
+  return (<Text style={[styles.text, style]}>{children}</Text>)
+}
+
 const styles = StyleSheet.create({
   button: {
-    maxWidth: 200,
-    textAlign: "center",
-    borderRadius: 10,
-    paddingTop: 14,
-    paddingBottom: 14,
+    width: '100%',
+    borderRadius: 20,
+    paddingTop: 15,
+    paddingBottom: 15,
     paddingLeft: 30,
     paddingRight: 30,
-    fontSize: 15,
+    fontSize: 20,
     backgroundColor: "#2f80ed",
   },
   text: {
-    color: "white",
+    textAlign: "center",
+    color: "#fff",
+    fontSize: 17,
+    fontFamily:  Platform.OS === "web" ? "inherit" : "Jost_500Medium", 
   },
 });
